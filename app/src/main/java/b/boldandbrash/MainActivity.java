@@ -12,20 +12,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //取得此Button的實體
-        button = (Button)findViewById(R.id.button);
-
-        //實做OnClickListener界面
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //初始化Intent物件
-                Intent intent = new Intent();
-                //從MainActivity 到Main2Activity
-                intent.setClass(MainActivity.this , MediaRecorderActivity.class);
-                //開啟Activity
-                startActivity(intent);
-            }
-        });
+    }
+    public void recordLayout(View v){
+        //初始化Intent物件
+        Intent intent = new Intent();
+        //從MainActivity 到Main2Activity
+        intent.setClass(MainActivity.this , MediaRecorderActivity.class);
+        //開啟Activity
+        startActivity(intent);
     }
 }
