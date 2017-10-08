@@ -16,8 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".MediaRecorderActivity" />
-        <uses-permission android:name="android.permission.RECORD_AUDIO"></uses-permission>
-        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
-        <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
     </application>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
 </manifest>
