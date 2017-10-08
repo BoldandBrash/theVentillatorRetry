@@ -18,6 +18,6 @@ public class HomeScreen extends AppCompatActivity {
         //從MainActivity 到Main2Activity
         intent.setClass(HomeScreen.this , MainActivity.class);
         //開啟Activity
-     //   startActivity(intent);
+        startActivity(intent);
     }
 }

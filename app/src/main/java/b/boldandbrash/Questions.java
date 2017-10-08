@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class Questions extends AppCompatActivity {
 
     int i;
-    private TextView question_box = (TextView)findViewById(R.id.copingquestion);
+    private TextView question_box = (TextView)findViewById(R.id.coping_question);
     private EditText answer_box = (EditText)findViewById(R.id.coping_response);
     private Resources res = getResources();
     private String[] coping_questions = res.getStringArray(R.array.coping_questions);
