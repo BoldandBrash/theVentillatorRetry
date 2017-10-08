@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">BoldandBrash</string>
     <string name="title_activity_cool_down">CoolDownActivity</string>
+    <string-array name="coping_questions">
+        <item>What are you angry/stressed about?</item>
+        <item>What led up to this problem?</item>
+        <item>What happened last time you vented? Did you face a similar problem?</item>
+        <item>How do you feel now?</item>
+        <item>How can reacting negatively affect those around you?</item>
+        <item>What steps can you take to prevent problems in the future?</item>
+    </string-array>
 </resources>
